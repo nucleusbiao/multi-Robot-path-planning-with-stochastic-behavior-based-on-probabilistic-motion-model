@@ -61,6 +61,7 @@ python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_ag
 ````
 
 If you use this code, please cite
+
 @article{Hu2020HeterogeneousMP,
 
   title={Heterogeneous Multi-Robot Path Planning Based on Probabilistic Motion Model},
