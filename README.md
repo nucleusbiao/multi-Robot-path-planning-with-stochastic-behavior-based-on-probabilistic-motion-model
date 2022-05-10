@@ -22,42 +22,42 @@ make
 ### PCBS_ON
 
 ````
-./PCBS_ON -i ../benchmark/8x8_obst12/map_8by8_obst12_agents7_ex1.yaml -o output.yaml
-python3 ../example/visualize.py ../benchmark/8x8_obst12/map_8by8_obst12_agents7_ex1.yaml output.yaml
+./PCBS_ON -i ../benchmark/8x8_obst12/map_8by8_obst12_agents7_ex0.yaml -o output.yaml
+python3 ../example/visualize.py ../benchmark/8x8_obst12/map_8by8_obst12_agents7_ex0.yaml output.yaml
 
 
-./PCBS_ON -i ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex1.yaml -o output.yaml
-python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex1.yaml output.yaml
+./PCBS_ON -i ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex0.yaml -o output.yaml
+python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex0.yaml output.yaml
 ````
 
 ### PCBS_OFF
 
 ````
-./PCBS_OFF -i ../benchmark/8x8_obst12/map_8by8_obst12_agents7_ex1.yaml -o output.yaml
-python3 ../example/visualize.py ../benchmark/8x8_obst12/map_8by8_obst12_agents7_ex1.yaml output.yaml
+./PCBS_OFF -i ../benchmark/8x8_obst12/map_8by8_obst12_agents7_ex0.yaml -o output.yaml
+python3 ../example/visualize.py ../benchmark/8x8_obst12/map_8by8_obst12_agents7_ex0.yaml output.yaml
 
-./PCBS_OFF -i ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex1.yaml -o output.yaml
-python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex1.yaml output.yaml
+./PCBS_OFF -i ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex0.yaml -o output.yaml
+python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex0.yaml output.yaml
 ````
 
 ### PECBS_ON
 
 ````
-./PECBS_ON -i ../benchmark/8x8_obst12/map_8by8_obst12_agents11_ex1.yaml -o output.yaml -w 1.3
-python3 ../example/visualize.py ../benchmark/8x8_obst12/map_8by8_obst12_agents11_ex1.yaml output.yaml
+./PECBS_ON -i ../benchmark/8x8_obst12/map_8by8_obst12_agents11_ex0.yaml -o output.yaml -w 1.3
+python3 ../example/visualize.py ../benchmark/8x8_obst12/map_8by8_obst12_agents11_ex0.yaml output.yaml
 
-./PECBS_ON -i ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex1.yaml -o output.yaml -w 1.3
-python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex1.yaml output.yaml
+./PECBS_ON -i ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex0.yaml -o output.yaml -w 1.3
+python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex0.yaml output.yaml
 ````
 
 ### PECBS_OFF
 
 ````
-./PECBS_OFF -i ../benchmark/8x8_obst12/map_8by8_obst12_agents11_ex1.yaml -o output.yaml -w 1.3
-python3 ../example/visualize.py ../benchmark/8x8_obst12/map_8by8_obst12_agents11_ex1.yaml output.yaml
+./PECBS_OFF -i ../benchmark/8x8_obst12/map_8by8_obst12_agents11_ex0.yaml -o output.yaml -w 1.3
+python3 ../example/visualize.py ../benchmark/8x8_obst12/map_8by8_obst12_agents11_ex0.yaml output.yaml
 
-./PECBS_OFF -i ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex1.yaml -o output.yaml -w 1.3
-python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex1.yaml output.yaml
+./PECBS_OFF -i ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex0.yaml -o output.yaml -w 1.3
+python3 ../example/visualize.py ../benchmark/32x32_obst204/map_32by32_obst204_agents10_ex0.yaml output.yaml
 ````
 
 If you use this code, please cite
